@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bb7d6067e83e4760",
+        "id": "fba37e46db7589a1",
         "type": "tabs",
         "children": [
           {
-            "id": "e10839b99b26942d",
+            "id": "a17afd3342e90ef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "科研/hello.md",
+                "mode": "source",
                 "backlinks": true,
-                "source": true
-              }
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hello"
             }
           }
         ]
@@ -46,7 +48,9 @@
                 "backlinks": true,
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "置顶通知区"
             }
           }
         ]
@@ -63,7 +67,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -71,7 +77,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -86,14 +94,16 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 441.5
   },
   "right": {
     "id": "b6f2a1ef44ffdc87",
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "科研/hello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "hello 的反向链接列表"
             }
           },
           {
@@ -127,10 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "科研/hello.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "hello 的出链列表"
             }
           },
           {
@@ -145,7 +159,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -156,7 +172,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -165,8 +183,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              }
+                "file": "科研/hello.md"
+              },
+              "icon": "lucide-list",
+              "title": "hello 的大纲"
             }
           },
           {
@@ -178,7 +198,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
@@ -187,8 +209,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
-              }
+                "file": "科研/hello.md"
+              },
+              "icon": "lucide-info",
+              "title": "hello的笔记属性"
             }
           },
           {
@@ -203,11 +227,33 @@
                 "backlinks": true,
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "最近笔记"
+            }
+          },
+          {
+            "id": "04061fa1708160ed",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {},
+              "icon": "clock",
+              "title": "Toggl Report"
+            }
+          },
+          {
+            "id": "5ef7eee341e2d660",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       },
       {
         "id": "454ed639f28082be",
@@ -220,7 +266,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "科研/hello.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -261,7 +307,9 @@
                   "scale": 1.0530458612647358,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "hello 的关系图"
             }
           },
           {
@@ -269,18 +317,19 @@
             "type": "leaf",
             "state": {
               "type": "toggl-report",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 924.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "attachment-manager:切换附件文件夹的“显示/隐藏”": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -289,12 +338,17 @@
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
+      "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false
+      "attachment-manager:切换附件文件夹的“显示/隐藏”": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e10839b99b26942d",
+  "active": "a17afd3342e90ef3",
   "lastOpenFiles": [
+    "README.md",
+    "科研/hello.md",
+    "setting/置顶通知区.md",
     "使用案例/时间轴（示例2：标题右栏）.md",
     "机构/Google.md",
     "使用案例/时间轴（示例1）.md",
@@ -305,7 +359,6 @@
     "setting/最近笔记.md",
     "使用案例/时间轴使用说明.md",
     "使用案例/使用案例.md",
-    "README.md",
     "inbox/未命名.md",
     "模板库说明.md",
     "inbox/大语言模型/GPT-3.md",
@@ -324,8 +377,6 @@
     "日记/2024/2024-03-05_Tue.md",
     "日记/2024/2024-02-29_Thu.md",
     "日记/2024/2024-02-28_Wed.md",
-    "日记/2024/2024-01-26_Fri.md",
-    "文献笔记/@vaswani2017attention.md",
     "机构",
     "日记/2023",
     "setting/templates/template-folder",

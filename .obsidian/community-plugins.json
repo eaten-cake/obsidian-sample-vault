@@ -19,5 +19,6 @@
   "plugin-reloader",
   "default-query-in-backlink",
   "metadata-hider",
-  "automation"
+  "automation",
+  "obsidian-git"
 ]
