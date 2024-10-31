@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "452012f67d283c00",
+        "id": "8ae5b2edecf8e730",
         "type": "tabs",
         "children": [
           {
-            "id": "1acddd3c9bd7b683",
+            "id": "5f976e9b3fdafd7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,7 +16,7 @@
                 "file": "系列/WSL/WSL迁移到其它盘.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "WSL迁移到其它盘"
@@ -310,10 +310,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1acddd3c9bd7b683",
+  "active": "5f976e9b3fdafd7a",
   "lastOpenFiles": [
-    "日记/2024/2024-10-31_Thu.md",
     "系列/WSL/WSL迁移到其它盘.md",
+    "日记/2024/2024-10-31_Thu.md",
     "inbox/大语言模型/GPT-3.md",
     "系列/WSL",
     "inbox/大语言模型/Gemini.md",
