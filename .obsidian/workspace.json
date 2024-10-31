@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8ae5b2edecf8e730",
+        "id": "c4c4b15669d40709",
         "type": "tabs",
         "children": [
           {
-            "id": "5f976e9b3fdafd7a",
+            "id": "c56b940b92f0185d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "系列/C++/细碎知识.md",
+                "file": "日记/2024/2024-11-01_Fri.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "细碎知识"
+              "title": "2024-11-01_Fri"
             }
           }
         ]
@@ -149,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "系列/C++/细碎知识.md"
+                "file": "日记/2024/2024-11-01_Fri.md"
               },
               "icon": "lucide-list",
-              "title": "细碎知识 的大纲"
+              "title": "2024-11-01_Fri 的大纲"
             }
           },
           {
@@ -232,7 +232,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "系列/C++/细碎知识.md",
+                "file": "日记/2024/2024-11-01_Fri.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -275,7 +275,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "细碎知识 的关系图"
+              "title": "2024-11-01_Fri 的关系图"
             }
           },
           {
@@ -310,40 +310,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5f976e9b3fdafd7a",
+  "active": "c56b940b92f0185d",
   "lastOpenFiles": [
-    "系列/WSL/WSL迁移到其它盘.md",
-    "系列/C++/细碎知识.md",
-    "系列/C++",
+    "日记/2024/2024-11-01_Fri.md",
+    "setting/templates/日记模板.md",
+    "setting/最近笔记.md",
     "日记/2024/2024-10-31_Thu.md",
+    "日记/2024/2024-10-30_Wed.md",
+    "日记/2024/2024-11-02_Sat.md",
+    "setting/置顶通知区.md",
+    "setting/templates/template-folder/LLM model.md",
+    "setting/templates/template-folder/研究人员模板.md",
+    "setting/templates/template-folder/机构模板.md",
+    "README.md",
+    "模板库说明.md",
+    "启动页.canvas",
+    "系列/C++/细碎知识.md",
+    "系列/WSL/WSL迁移到其它盘.md",
+    "系列/C++",
     "inbox/大语言模型/GPT-3.md",
     "系列/WSL",
     "inbox/大语言模型/Gemini.md",
-    "模板库说明.md",
-    "setting/置顶通知区.md",
     "文献笔记/@srivastava2014dropout.md",
     "科研/hello.md",
     "研究人员/Ilya Sutskever.md",
     "研究人员/Ashish Vaswani.md",
     "科研/ML.md",
-    "日记/2024/2024-11-01_Fri.md",
-    "日记/2024/2024-11-02_Sat.md",
-    "日记/2024/2024-10-30_Wed.md",
     "日记/2024/2024-10-29_Tue.md",
-    "setting/templates/template-folder/LLM model.md",
     "系列/MLIR/Hello, MLIR.md",
-    "启动页.canvas",
     "系列/未命名.canvas",
     "系列/MLIR",
     "机构/PKU.md",
     "系列",
     "科研/DL.md",
-    "README.md",
     "使用案例/时间轴（示例2：标题右栏）.md",
-    "机构/Google.md",
-    "使用案例/时间轴（示例1）.md",
-    "其他/木一Benature.md",
-    "其他/木一的插件/Share My Plugin List.md",
     "其他/木一的插件",
     "inbox/大语言模型",
     "使用案例/Untitled",
