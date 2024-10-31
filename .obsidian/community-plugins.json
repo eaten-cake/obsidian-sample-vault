@@ -20,5 +20,6 @@
   "default-query-in-backlink",
   "metadata-hider",
   "automation",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-minimal-settings"
 ]
