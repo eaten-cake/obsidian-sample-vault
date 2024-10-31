@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4c4b15669d40709",
+        "id": "66b364401d5cf110",
         "type": "tabs",
         "children": [
           {
-            "id": "c56b940b92f0185d",
+            "id": "abf5514ede11c4bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日记/2024/2024-11-01_Fri.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2024-11-01_Fri"
+              "title": "新标签页"
             }
           }
         ]
@@ -148,11 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "日记/2024/2024-11-01_Fri.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "2024-11-01_Fri 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -232,7 +225,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日记/2024/2024-11-01_Fri.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -275,7 +267,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024-11-01_Fri 的关系图"
+              "title": "关系图谱"
             }
           },
           {
@@ -310,18 +302,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c56b940b92f0185d",
+  "active": "abf5514ede11c4bf",
   "lastOpenFiles": [
+    "setting/置顶通知区.md",
     "日记/2024/2024-11-01_Fri.md",
+    "setting/templates/template-folder/机构模板.md",
+    "setting/templates/template-folder/研究人员模板.md",
+    "setting/templates/template-folder/LLM model.md",
     "setting/templates/日记模板.md",
     "setting/最近笔记.md",
     "日记/2024/2024-10-31_Thu.md",
     "日记/2024/2024-10-30_Wed.md",
     "日记/2024/2024-11-02_Sat.md",
-    "setting/置顶通知区.md",
-    "setting/templates/template-folder/LLM model.md",
-    "setting/templates/template-folder/研究人员模板.md",
-    "setting/templates/template-folder/机构模板.md",
     "README.md",
     "模板库说明.md",
     "启动页.canvas",
