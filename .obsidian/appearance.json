@@ -13,5 +13,9 @@
     "contribution-widget",
     "metadata-icon-auto-gen",
     "Timeline-Snippet"
-  ]
+  ],
+  "interfaceFontFamily": "Consolas",
+  "nativeMenus": false,
+  "baseFontSizeAction": true,
+  "baseFontSize": 18
 }
