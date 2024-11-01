@@ -14,7 +14,7 @@
 } %vec1, %vec2, %zero : vector<8xf32>, vector<8xf32> into f32
 
 ```
-`indexing_maps` 使得两个向量中每个元素对应相乘，然后通过
+`indexing_maps` 使得两个向量中每个元素对应相乘，然后通过 `reduction` 操作将结果ji
 
 
 
