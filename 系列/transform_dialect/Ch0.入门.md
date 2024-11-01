@@ -6,6 +6,7 @@
 “归约”一词用于描述这一行为是因为它确实在“减少”或“简化”数据的维度或数量上。
 
 ### 2. Contraction (收缩)
+#### 2.1 向量点积
 
 ```cpp
 %result = vector.contract {
@@ -14,7 +15,12 @@
 } %vec1, %vec2, %zero : vector<8xf32>, vector<8xf32> into f32
 
 ```
-`indexing_maps` 使得两个向量中每个元素对应相乘，然后通过 `reduction` 操作将结果ji
+`indexing_maps` 使得两个向量中每个元素对应相乘，然后通过 `reduction` 操作将结果加在一起。
+#### 2.2 矩阵乘法
+```cpp
+
+```
+
 
 
 
