@@ -322,8 +322,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "abf5514ede11c4bf",
+  "active": "845c27043dc86471",
   "lastOpenFiles": [
+    "系列/transform-opt",
     "setting/置顶通知区.md",
     "日记/2024/2024-11-01_Fri.md",
     "setting/templates/template-folder/机构模板.md",
@@ -355,7 +356,6 @@
     "机构/PKU.md",
     "系列",
     "科研/DL.md",
-    "使用案例/时间轴（示例2：标题右栏）.md",
     "其他/木一的插件",
     "inbox/大语言模型",
     "使用案例/Untitled",
