@@ -59,6 +59,22 @@ linalg.generic {
 }
 ```
 
+### 5. Generic Operation on Tensors
+```cpp
+%result = linalg.generic {
+  indexing_maps = [affine_map<(i, j, k) -> (i, k)>,
+                   affine_map<(i, j, k) -> (k, j)>,
+                   affine_map<(i, j, k) -> (i, j)>],
+  iterator_types = ["parallel", "parallel", "reduction"]
+} ins(%lhs, %rhs : tensor<8x10xf32>,tensor<10x16xf32>)
+  outs(%init :tensor<8x16xf32>) {
+^bb0(%lhs_one: f32, %rhs_one: f32, %init_one: f32):
+  %0 = arith.mulf %lhs_one, %rhs_one : f32
+  %1 = arith.addf %init_one, %0 : f32
+  linalg.yield %1 : f32
+} -> tensor<8x16xf32>
+```
+
 
 
 
