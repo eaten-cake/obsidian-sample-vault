@@ -18,6 +18,12 @@
 `indexing_maps` 使得两个向量中每个元素对应相乘，然后通过 `reduction` 操作将结果加在一起。
 #### 2.2 矩阵乘法
 ```cpp
+%result = vector.contract {
+  indexing_maps = [affine_map<(i, k) -> (i, k)>, 
+                   affine_map<(k, j) -> (k, j)>,
+                   affine_map<(i, j) -> (i, j)>],
+  iterator_types = ["parallel", "reduction", "parallel"]
+} %matA, %matB, %zero : tensor<mxkxf32>, tensor<kxnx32> into tensor<mxnx32>
 
 ```
 
