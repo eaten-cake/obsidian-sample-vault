@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "系列/transform_dialect/未命名.md",
+                "file": "系列/transform_dialect/Ch0..md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Ch0."
             }
           }
         ]
@@ -250,7 +250,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "系列/transform_dialect/未命名.md",
+                "file": "系列/transform_dialect/Ch0..md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -293,7 +293,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "未命名 的关系图"
+              "title": "Ch0. 的关系图"
             }
           },
           {
@@ -330,7 +330,7 @@
   },
   "active": "abf5514ede11c4bf",
   "lastOpenFiles": [
-    "系列/transform_dialect/未命名.md",
+    "系列/transform_dialect/Ch0..md",
     "系列/transform_dialect",
     "setting/置顶通知区.md",
     "日记/2024/2024-11-01_Fri.md",
