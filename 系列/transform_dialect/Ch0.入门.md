@@ -44,7 +44,20 @@ linalg.generic {
 }
 ```
 
+### 4. loop fusion
 
+```cpp
+linalg.generic {
+  indexing_maps [affine_map<(i) -> (i)>, affine_map<(i) -> (i)>],
+  iterator_types = ["parallel"]
+} ins(%in : memref<?xf32>) outs(%out : memref<?xf32>) {
+^bb0(%in_one : f32, %out_one : f32):
+  %c0 = arith.constant 0.0 : f32
+  %0 = arith.cmpf ogt %in_one, %c0 : f32
+  %1 = arith.select %0, %in_one, %c0 : f32
+  linalg.yield %1 : f32 
+}
+```
 
 
 
