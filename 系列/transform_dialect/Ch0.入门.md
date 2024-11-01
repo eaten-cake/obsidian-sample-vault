@@ -8,7 +8,7 @@
 ### 2. Contraction (收缩)
 #### 2.1 向量点积
 
-```mlir
+```cpp
 %result = vector.contract {
   indexing_maps = [affine_map<(i) -> (i)>, affine_map<(i) -> (i)>, affine_map<() -> ()>],
   iterator_types = ["reduction"]
@@ -19,13 +19,29 @@
 `indexing_maps` 使得两个向量中每个元素对应相乘，然后通过 `reduction` 操作将结果加在一起。
 
 #### 2.2 矩阵乘法
-```mlir
+```cpp
 %result = vector.contract {
   indexing_maps = [affine_map<(i, j, k) -> (i, k)>,
                    affine_map<(i, j, k) -> (k, j)>,
                    affine_map<(i, j, k) -> (i, j)>],
   iterator_types = ["parallel", "parallel", "reduction"]
 } %lhs, %rhs, %init: vector<8x10xf32>, vector<10x16xf32> into vector<8x16xf32>
+```
+
+### 3. Generic Operation on Memory
+```cpp
+linalg.generic {
+  indexing_maps = [affine_map<(i, j, k) -> (i, k)>,
+                   affine_map<(i, j, k) -> (k, j)>,
+                   affine_map<(i, j, k) -> (i, j)>],
+  iterator_types = ["parallel", "parallel", "reduction"]
+} ins(%lhs, %rhs : memref<8x10xf32>, memref<10x16xf32>)
+  outs(%init : memref<8x16xf32>) {
+^bb0(%lhs_one: f32, %rhs_one: f32, %init_one: f32):
+  %0 = arith.mulf %lhs_one, %rhs_one : f32
+  %1 = arith.addf %init_one, %0 : f32
+  linalg.yield %1 : f32
+}
 ```
 
 
