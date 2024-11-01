@@ -1,5 +1,5 @@
 ### 1. Reductin (归约)
-```mlir
+```cpp
 %0 = vector.reduction <add>, %0 : vector<8xf32> into f32
 ```
 归约操作通常指的是通过某种二元操作（如加法、乘法、最大值等）来合并输入元素，从而生成单一的输出结果。
