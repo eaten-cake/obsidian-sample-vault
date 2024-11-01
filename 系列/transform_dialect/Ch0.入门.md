@@ -7,7 +7,13 @@
 
 ### 2. Contraction (收缩)
 
+```cpp
+%result = vector.contract {
+  indexing_maps = [affine_map<(i) -> (i)>, affine_map<(i) -> (i)>, affine_map<() -> ()>],
+  iterator_types = ["reduction"]
+} %vec1, %vec2, %zero : vector<8xf32>, vector<8xf32> into f32
 
+```
 
 
 
